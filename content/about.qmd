@@ -8,9 +8,11 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
+      target: "_blank"
       href: https://www.linkedin.com/in/subinashakya
     - icon: github
       text: Github
+      target: "_blank"
       href: https://github.com/su-shakya/
     - icon: envelope-fill
       text: Email
