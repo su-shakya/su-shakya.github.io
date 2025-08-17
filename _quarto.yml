@@ -6,7 +6,7 @@ website:
   title: "Subina Shakya"
 
   description: "Consruction Manager, Urban Planner, Architect"
-  site-url: su-shakya.github.io/content
+  site-url: https://su-shakya.github.io/content/index.html
   repo-url: https://github.com/su-shakya/su-shakya.github.io/
   favicon: assets/images/ss_headshot.jpg
   image: assets/images/ss_headshot.jpg
