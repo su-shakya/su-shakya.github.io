@@ -6,7 +6,7 @@ website:
   title: "Subina Shakya"
 
   description: "Consruction Manager, Urban Planner, Architect"
-  site-url: "https://su-shakya.github.io/content/"
+  site-url: "https://su-shakya.github.io/"
   repo-url: "https://github.com/su-shakya/su-shakya.github.io/"
 
   favicon: assets/images/ss_headshot.jpg
@@ -18,10 +18,12 @@ website:
     title: "Subina Shakya"
     # logo: assets/images/ss_headshot.jpg
     # logo-alt: "Professional Headshot Photo"
-    logo-href: "https://su-shakya.github.io/content/index.html"
+    logo-href: "/"
     collapse: true
     
     left:
+      - href: content/index.qmd
+        text: "Home"
       - href: content/about.qmd
         text: "About" # Menu title of document, automatically from document title if not provided
       - href: content/resume.qmd
