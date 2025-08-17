@@ -4,39 +4,14 @@
 // https://github.com/thomaspark/bootswatch/tree/v5/dist/litera
 $theme: "litera" !default;
 
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-h2, .h2 {
-  padding-top: 1.8rem;
-}
-
-h3, .h3 {
-  padding-top: 1.8rem;
-}
-
-h4, .h4 {
-  padding-top: 1.2rem;
-}
-
-h5, .h5 {
-  padding-top: 1rem;
-}
-
-
-// The left hand sidebar
-$grid-sidebar-width: 250px !default;
-
-// The main body
-$grid-body-width: 700px !default;
-
-// The right hand margin bar
-$grid-margin-width: 250px !default;
-
-// The gutter that appears between the above columns
-$grid-column-gutter-width: 1.5rem !default;
-
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
+// fonts
+$font-family-sans-serif: Figtree, Poppins, sans-serif !default;
+$font-family-monospace: "Fira Code", monospace;
+$headings-font-family: Figtree, Poppins, sans-serif !default;
 
 // litera bootswatch theme colors
 /*
@@ -66,13 +41,8 @@ $gray-800: #343440 !default;
 $gray-900: #212129 !default;
 $black:    #000 !default;
 
-$blue-400: #4588ec !default;
-$blue-500: #2a6de0 !default;
-$blue-600: #0011bb !default;
-$blue-700: #020f9f !default;
-$blue-800: #010b76 !default;
 
-
+/*
 $blue:    #4582ec !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
@@ -83,46 +53,34 @@ $yellow:  #f0ad4e !default;
 $green:   #02b875 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+*/
 
-// from image logo
-$highlight-pink:  #f10087 !default;
-$highlight-yellow:#fff04c !default;
-$highlight-blue:  #00b0ea !default;
+//  my colors (comment out above)
+$pink: #D4006A;
+$blue: #006AD4;
+$green: #00D46A;
+$cyan: #00D4D4;
+$red: #D40000;
+$indigo: #0000D4;
+$purple: #6A00D4;
+$orange: #D46A00;
+$yellow: #D4D400;
+$darker-green: #008542;
 
-// standard colors
-$light:  $white !default;
-$dark:   $gray-900 !default;
-
-$primary-color: $blue-800 !default;
-$second-color:  $blue-700 !default;
-$third-color:   $blue-600 !default;
-
-
+$primary:       $pink !default;
+$secondary:     $gray-500 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $orange !default;
 $danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
 
-
-// colour tweaks to theme
-$body-bg: $light;
-$body-color: $dark;
-
-$navbar-bg: $body-bg; 
-$navbar-fg: $body-color;
-
-$code-bg: darken($body-bg, 3%);
-$code-color: $highlight-pink;
-
-$code-block-bg: darken($body-bg, 3%);
-$code-block-border-color: $body-bg;
-
-$card-bg: $body-bg;
-$card-border-color: $gray-300;
-
+$second-color:  $purple;
+$third-color:   $blue;
 
 // font sizes;
-$font-size-base:   1rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:   1rem; //!default; // Assumes the browser default, typically `16px`
 $h1-font-size:     $font-size-base * 2.5 !default;
 $h2-font-size:     $font-size-base * 2 !default;
 $h3-font-size:     $font-size-base * 1.75 !default;
@@ -130,19 +88,46 @@ $h4-font-size:     $font-size-base * 1.5 !default;
 $h5-font-size:     $font-size-base * 1.25 !default;
 $h6-font-size:     $font-size-base !default;
 
+// colour tweaks to theme
+$body-bg: $light;
+$body-color: $dark;
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$code-bg: $light;
+$code-color: $second-color;
+$card-bg: $body-bg;
+$card-border-color: $gray-300;
 
-h1, h2, h3, h4, h5 {
-    font-weight: 300;
+#fn1 > p > code {
+  font-size: 0.8rem;
 }
 
-$code-font-size: $font-size-base;
+#fn2 > p > code {
+  font-size: 0.8rem;
+}
+
+#fn3 > p > code {
+  font-size: 0.8rem;
+}
+
+#fn4 > p > code {
+  font-size: 0.8rem;
+}
+
+#fn5 > p > code {
+  font-size: 0.8rem;
+}
+
+#fn6 > p > code {
+  font-size: 0.8rem;
+}
 
 code {
-    font-feature-settings: 'dlig' 0, 'liga' 0, 'calt' 1, 'zero' 1, 'ss02' 0;
+  font-feature-settings: 'dlig' 0, 'liga' 0, 'calt' 1, 'zero' 1, 'ss02' 0;
 }
 
 code span.co {
-  font-family: "MonoLisa-RegularItalic", "Fira Mono", monospace;
+  font-family: "Fira Code", monospace;
 }
 
 h1 code {
@@ -171,7 +156,7 @@ h6 code {
 
 // callouts
 $callout-color-note: $blue;
-$callout-color-tip: $green;
+$callout-color-tip: $darker-green;
 $callout-color-caution: $purple;
 $callout-color-warning: $orange;
 $callout-color-important: $red;
@@ -179,8 +164,8 @@ $callout-color-important: $red;
 /*-- scss:rules --*/
 
 // color classes
-.primary-color {
-    color: $primary-color;
+.primary {
+  color: $primary;
 }
 
 .second-color {
@@ -209,15 +194,14 @@ pre.sourceCode {
 a {
   color: $body-color;
   text-decoration: underline;
-  text-decoration-color: lighten($body-color, 50%);// $body-color;
   text-decoration-thickness: 1px;
-  text-underline-offset: .1rem;
-  text-underline-position: under;
+  //text-underline-offset: .1rem;
+  //text-underline-position: under;
 }
 
 a:hover {
-  color: $third-color;
-  text-decoration-color:$highlight-blue;
+  color: $primary;
+  text-decoration-color: $primary;
 }
 
 .toc-actions a {
@@ -226,24 +210,25 @@ a:hover {
 }
 
 .toc-actions a:hover {
-  color: $primary-color;
+  color: $primary;
 }
 
 div.tippy-content a:hover {
-  text-decoration-color: $primary-color;
+  text-decoration-color: $primary;
 }
 
 // navbar
 .navbar-title {
-  font-size: $font-size-base * 1.5;
+  font-size: $font-size-base * 1.75;
 }
 
 // the line in the navbar logo
+// animation defined in ek-styles.css
 .icon-line {
   display: block;
-  background: $dark;
+  background: $primary;
   width: 100%;
-  height: 4px;
+  height: 6px;
   margin: auto;
   display: table;
   margin-top: -6px;
@@ -251,6 +236,10 @@ div.tippy-content a:hover {
 }
 
 /* keep text the body colour when active
+this was a change in Quarto 1.2 - now defaults to a darker shade of $primary
+would be fine, except that I want to target the different list items to keep 
+the color that matches the card
+
 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active {
     color: $body-color;
 }
@@ -258,16 +247,36 @@ div.tippy-content a:hover {
 
 // hover on navbar
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  color: $third-color;
+  color: $primary;
 }
 .navbar-expand-lg .navbar-nav .nav-link.active {
+  color: $primary;
+}
+
+// then override colors so they match cards
+#navbarCollapse > ul > li:nth-child(2) > a:hover,
+#navbarCollapse > ul > li:nth-child(4) > a:hover {
+  color: $second-color;
+}
+
+#navbarCollapse > ul > li:nth-child(2) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(4) > a.nav-link.active {
+  color: $second-color;
+}
+
+#navbarCollapse > ul > li:nth-child(3) > a:hover,
+#navbarCollapse > ul > li:nth-child(5) > a:hover {
   color: $third-color;
 }
 
+#navbarCollapse > ul > li:nth-child(3) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(5) > a.nav-link.active {
+  color: $third-color;
+}
 
 // stop the name in my icon from changing colour on hover
 .navbar-title:hover {
-    color: $body-color;
+  color: $body-color;
 }
 
 // animated underline on hover, when navbar shows as row
@@ -286,13 +295,23 @@ div.tippy-content a:hover {
     left: 0;
     right: 0;
     margin: auto;
-    background-color: $primary-color;
+    background-color: $primary;
     width: 0%;
     content: "";
     height: 4px;
     transition: all 0.3s;
   }
-
+  
+  .navbar .navbar-nav .nav-item:nth-child(2)::after, 
+  .navbar .navbar-nav .nav-item:nth-child(4)::after {
+    background-color: $second-color;
+  }
+  
+  .navbar .navbar-nav .nav-item:nth-child(3)::after, 
+  .navbar .navbar-nav .nav-item:nth-child(5)::after {
+    background-color: $third-color;
+  }
+  
   .navbar .navbar-nav .nav-item:hover::after {
     width: 90%;
   }
@@ -300,7 +319,9 @@ div.tippy-content a:hover {
 
 // header styles (more in ek-styles.css)
 #quarto-header {
-  text-transform: capitalize;
+  text-transform: uppercase;
+  //font-family: Jost, Poppins, sans-serif;
+  // font-family: Jost, Poppins, sans-serif;
   font-family: $headings-font-family;
 }
 
@@ -317,6 +338,7 @@ h1 {
 
 .heading-font {
   font-family: $headings-font-family;
+  //font-family: Jost, Poppins, sans-serif;
 }
 
 .home-header {
@@ -346,10 +368,10 @@ iframe.slide-deck {
 // icon-links
 .icon-link, div.quarto-about-jolla .about-link {
     background-color: transparent;
-    color: $primary-color;
+    color: $primary;
     //border: 2px solid !important;
     border: 2px solid;
-    border-color: $primary-color;
+    border-color: $primary;
     padding: 5px .4rem 5px .4rem !important;
     margin-top: 4px;
     margin-right: 8px;
@@ -360,16 +382,16 @@ iframe.slide-deck {
 }
 
 .icon-link:hover, div.quarto-about-jolla .about-link:hover{
-    background-color: $primary-color;
+    background-color: $primary;
     color: $body-bg;
-    border-color: $primary-color;
+    border-color: $primary;
     text-decoration: none;
 }
 
 // for cards on home page
 #card-first-color {
   background-color: $body-bg;
-  border: 4px solid $primary-color;
+  border: 4px solid $primary;
   border-radius: 5px; 
 }
 
@@ -386,10 +408,10 @@ iframe.slide-deck {
 }
 
 .card-link {
-    background-color: $primary-color;
+    background-color: $primary;
     color: $body-bg;
-    border: 4px solid $primary-color;
-    border-color: $primary-color;
+    border: 4px solid $primary;
+    border-color: $primary;
     padding: 5px .5rem 5px .5rem !important;
     margin: 0;
     border-radius: 5px; 
@@ -400,7 +422,7 @@ iframe.slide-deck {
 
 .card-link:hover {
   background-color: $body-bg;
-  color: $primary-color;
+  color: $primary;
 }
 
 .second-color-link{
@@ -426,61 +448,5 @@ iframe.slide-deck {
 }
 
 
-.navbar-logo{
-  min-height:70px;
-  overflow: hidden; /* Hide any overflow when the image scales up */
-}
-
-/* Apply styles to the image */
-.navbar-logo {
-  width: 100%; 
-  height: 100%; 
-  transition: transform 0.3s ease;
-}
-
-/* Apply the hover effect to the image */
-.navbar-logo:hover {
-  transform: scale(1.2); /* Increase the image size by 20% on hover */
-}
 
 
-.navbar-title:hover > .icon-line {
-  animation-duration: 600ms;
-  animation-name: line-expand;
-}
-
-@keyframes line-expand {
-  from {
-      width: 0%;
-      //background-color: $third-color;
-  }
-  
-  to {
-      width: 100%;
-      //background-color: $primary-color;
-  }
-}
-
-.resume-jobs-time {
-  font-weight: 500;
-}
-
-//set style for tags (from listing-category=
-.category-tag {
-  color: #6c757d;
-  border: solid 1px #dee2e6;
-  border-radius: .25rem;
-  text-transform: uppercase;
-  font-size: .65em;
-  padding-left: .5em;
-  padding-right: .5em;
-  padding-top: .15em;
-  padding-bottom: .15em;
-  cursor: pointer;
-  margin-right: 4px;
-  margin-bottom: 4px;
-}
-
-.tilt-effect {
-  data-tilt: "";
-}

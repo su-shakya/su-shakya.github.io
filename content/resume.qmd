@@ -1,0 +1,13 @@
+---
+title: Resume # Curriculum vitæ
+pagetitle: Resume
+published-title: Last Updated
+date: 2025-08-17
+format: html
+---
+
+<iframe
+    width="1050"
+    height="1200"
+    src="../assets/pdfs/SubinaShakya_RESUME_updated2026.pdf">
+</iframe>
