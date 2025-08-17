@@ -5,7 +5,7 @@ project:
 website:
   title: "Subina Shakya"
 
-  description: "Some description"
+  description: "Consruction Manager, Urban Planner, Architect"
   site-url: su-shakya.github.io
   repo-url: https://github.com/su-shakya/su-shakya.github.io/
   favicon: assets/images/ss_headshot.jpg
@@ -17,7 +17,7 @@ website:
     title: "Subina Shakya"
     # logo: assets/images/ss_headshot.jpg
     # logo-alt: "Professional Headshot Photo"
-    # logo-href: https://su-shakya.github.io/
+    logo-href: https://su-shakya.github.io/content/index.html
     collapse: true
     
     left:
