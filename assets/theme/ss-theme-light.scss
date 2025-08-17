@@ -219,7 +219,8 @@ div.tippy-content a:hover {
 
 // navbar
 .navbar-title {
-  font-size: $font-size-base * 1.75;
+  font-size: $font-size-base * 1.5;
+  font-weight: 600;
 }
 
 // the line in the navbar logo
@@ -275,9 +276,9 @@ the color that matches the card
 }
 
 // stop the name in my icon from changing colour on hover
-.navbar-title:hover {
-  color: $body-color;
-}
+//.navbar-title:hover {
+//  color: $body-color;
+//}
 
 // animated underline on hover, when navbar shows as row
 @media screen and (min-width: 992px) {
@@ -447,6 +448,7 @@ iframe.slide-deck {
   border-color: $third-color;
 }
 
-
-
-
+// Name highlighting
+.name-highlight {
+  color: $primary !important;
+}

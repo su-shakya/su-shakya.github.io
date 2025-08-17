@@ -20,6 +20,6 @@ about:
 format: html
 ---
 
-# Hi! I am **Subina Shakya**.
+# Hi! I am <span class="name-highlight">Subina Shakya</span>.
 
 I am a Master’s student in Construction Management at Colorado State University, where my research focuses on advanced construction technologies and safety, particularly in Virtual Reality (VR). I hold a Master’s in Urban Planning and a Bachelor’s in Architecture from Tribhuvan University, Nepal. With an interdisciplinary background in architecture, urban planning, and construction management, I bring a unique perspective to exploring how VR can improve safety, efficiency, and sustainability in the construction industry. At CSU, I serve as a graduate teaching assistant for Graphic Communication for Construction, instructing undergraduate students and integrating technology into learning. 
