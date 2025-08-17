@@ -18,7 +18,7 @@ website:
     title: "Subina Shakya"
     # logo: assets/images/ss_headshot.jpg
     # logo-alt: "Professional Headshot Photo"
-    logo-href: "content/index.qmd"
+    logo-href: "/index.html"
     collapse: true
     
     left:

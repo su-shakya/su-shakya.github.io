@@ -1,5 +1,4 @@
 ---
-title: Resume # Curriculum vitæ
 pagetitle: Resume
 published-title: Last Updated
 date: 2025-08-17

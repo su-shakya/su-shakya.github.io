@@ -1,5 +1,5 @@
 ---
-title: Home
+pagetitle: Home
 image: ../assets/images/ss_headshot.jpg
 about:
   template: jolla
