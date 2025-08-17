@@ -9,6 +9,9 @@ website:
   site-url: "https://su-shakya.github.io/"
   repo-url: "https://github.com/su-shakya/su-shakya.github.io/"
 
+  # Explicitly set the homepage
+  page-navigation: false
+
   favicon: assets/images/ss_headshot.jpg
   image: assets/images/ss_headshot.jpg
   open-graph: true
@@ -18,12 +21,12 @@ website:
     title: "Subina Shakya"
     # logo: assets/images/ss_headshot.jpg
     # logo-alt: "Professional Headshot Photo"
-    logo-href: "/index.html"
+    logo-href: "content/index.qmd"
     collapse: true
     
     left:
-      - href: content/index.qmd
-        text: "Home"
+      # - href: content/index.qmd
+      #   text: "Home"
       - href: content/about.qmd
         text: "About" # Menu title of document, automatically from document title if not provided
       - href: content/resume.qmd
