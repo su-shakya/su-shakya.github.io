@@ -54,6 +54,10 @@ website:
           &nbsp;
           <a href="https://github.com/su-shakya/" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
           &nbsp;
+          <a href="https://orcid.org/0009-0002-1300-5313" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+          &nbsp;
+          <a href="https://scholar.google.com/citations?user=jF42jo8AAAAJ&hl=en" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
+          &nbsp;
           <a href="mailto:subina.shakya@colostate.edu" title="E-mail" target="_blank" rel="noopener">{{< fa envelope >}}</a>
     right: Made with [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank}, [<img src="https://quarto.org/favicon.png" width="14">](https://quarto.org/){target=_blank}, [{{< fa brands git-alt title="Git alt logo" >}}](https://git-scm.com/){target=_blank} and [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/){target=_blank}
 
