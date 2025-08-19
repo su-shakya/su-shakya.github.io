@@ -1,0 +1,48 @@
+# options specified here will apply to all posts in this folder
+
+# freeze computational output
+# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+freeze: auto
+
+# Enable banner style title blocks
+title-block-banner: true
+
+# Article page layout
+page-layout: article
+
+# Specify post formats
+format:
+  html:
+    toc: true
+    number-sections: true
+    number-depth: 2
+    html-math-method: katex
+    code-link: true
+    code-tools: true
+  typst:
+    toc: true
+    number-sections: true
+    number-depth: 2
+  docx:
+    toc: true
+    number-sections: true
+    number-depth: 2
+
+execute:
+  eval: true
+  warning: false
+  message: false
+
+format-links:
+  # - html
+  - format: typst
+    text: PDF
+    icon: file-pdf
+  - docx
+
+
+prefer-html: true
+engine: knitr
+knitr:
+  opts_chunk:
+    dev: ragg_png

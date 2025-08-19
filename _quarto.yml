@@ -30,7 +30,9 @@ website:
       - href: about.qmd
         text: "About" # Menu title of document, automatically from document title if not provided
       - href: resume.qmd
-        text: "Resume" # Menu title of document, automatically from document title if not provided
+        text: "Resume" # Menu title of document, automatically from document title if not 
+      - href: projects.qmd
+        text: "Projects" # Menu title of document, automatically from document title if not provided
 
     # add sections here
       # - href: content/subpage.qmd
