@@ -8,5 +8,5 @@ format: html
 <iframe
     width="1050"
     height="1200"
-    src="../assets/pdfs/SubinaShakya_RESUME_updated2026.pdf">
+    src="assets/pdfs/SubinaShakya_RESUME_updated2026.pdf">
 </iframe>

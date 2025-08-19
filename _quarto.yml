@@ -27,9 +27,9 @@ website:
     left:
       # - href: content/index.qmd
       #   text: "Home"
-      - href: content/about.qmd
+      - href: about.qmd
         text: "About" # Menu title of document, automatically from document title if not provided
-      - href: content/resume.qmd
+      - href: resume.qmd
         text: "Resume" # Menu title of document, automatically from document title if not provided
 
     # add sections here

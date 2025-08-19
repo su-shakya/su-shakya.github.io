@@ -1,6 +1,6 @@
 ---
 pagetitle: Home
-image: ../assets/images/ss_headshot.jpg
+image: assets/images/ss_headshot.jpg
 about:
   template: jolla
   image-width: 12em

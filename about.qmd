@@ -1,6 +1,6 @@
 ---
 pagetitle: About
-image: "../assets/images/ss_headshot.jpg"
+image: "assets/images/ss_headshot.jpg"
 about:
   template: trestles
   image-width: 12em
